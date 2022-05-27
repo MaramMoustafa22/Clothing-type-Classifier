@@ -57,4 +57,23 @@ and finally, my last approach was "Convolutional neural network (CNN)" and it wa
 
 # Metrics for Evaluation
 
+I evaluate the model using :
+
+Accuracy metric: it is defined as the number of correct predictions divided by the total number of predictions, multiplied by 100.
+
+Confusion Matrix: it is not a metric but it is fundamental to others and important.
+
+I also used the classification report that is in sklearn, it gives the precision, f1-score, and recall.
+
+* Precision is the ratio of true positives and total positives predicted,it focuses on Type-I errors(FP).
+A precision score towards 1 will signify that your model didn’t miss any true positives.
+
+* A Recall is essentially the ratio of true positives to all the positives in ground truth,it focuses on type-II errors(FN). 
+
+* The F1-score metric uses a combination of precision and recall.
+ a high F1 score symbolizes a high precision as well as high recall. 
+ 
+ # Results
+ 
+ CNN approach is the best one for this particular data as it gives a 90.5800 % accuracy and 0.2584 loss.
 
