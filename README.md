@@ -55,4 +55,6 @@ At first, the accuracy of the model was 87.5%, but after implementing more than 
 
 and finally, my last approach was "Convolutional neural network (CNN)" and it was the best approach for this data as it gives a 90.5% accuracy.
 
-# Handling Data
+# Metrics for Evaluation
+
+
